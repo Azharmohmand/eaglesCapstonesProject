@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5640844800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User verify all items are present in Deskstops tab",
+        "description": "",
+        "id": "desktops;user-verify-all-items-are-present-in-deskstops-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 1047210100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3281196300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Retail Website",
+            "match": {
+              "location": "LoginTestStepDef.User_is_on_Retail_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154376000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "DesktopStepDef.user_click_on_Desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1149763100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on show all desktops",
+            "match": {
+              "location": "DesktopStepDef.user_click_on_show_all_desktops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189648000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should see all items are present in Deskop page",
+            "match": {
+              "location": "DesktopStepDef.user_should_see_all_items_are_present_in_Deskop_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "Desktops",
+    "description": "",
+    "id": "desktops",
+    "keyword": "Feature",
+    "uri": "features/Desktop.feature"
+  }
+]
